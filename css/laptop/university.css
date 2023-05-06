@@ -1,0 +1,53 @@
+#university-container {
+  padding: 30px 10px;
+  background-color: var(--tertiary-color);
+}
+
+#university-container .item {
+  width: 500px;
+  height: 500px;
+  margin: 0px 10px;
+  background-color: var(--tertiary-color);
+}
+
+#university-container h1 {
+  text-align: center;
+  font-family: var(--primary-font);
+  color: var(--secondary-light-color);
+  font-size: 3.5rem;
+}
+
+.university-carasoul .item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--secondary-font);
+}
+
+.university-carasoul a {
+  text-decoration: none;
+  display: flex;
+  color: var(--white);
+}
+
+.university-carasoul a:hover {
+  text-decoration: none;
+}
+
+.university-carasoul .item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  width: 100%;
+  height: 100%;
+  opacity: 0.75;
+  background-color: var(--gray);
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #university-container .item {
+        width: calc(94vw - 20px);
+    }
+}

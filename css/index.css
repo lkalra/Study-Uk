@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --primary-color: red;
+  --primary-dark-color: rgb(181 0 0);
+  
+  --secondary-color: #04043f;
+  --secondary-light-color: #0545d6;
+  
+  --tertiary-color: #def5fa;
+
+  --white: white;
+  --black: black;
+  --gray: rgb(219, 219, 219);
+  --dark-gray: #626262;
+
+  --primary-font: 'Oswald', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}

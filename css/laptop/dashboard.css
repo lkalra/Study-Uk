@@ -1,0 +1,48 @@
+#dashboard-video {
+    width: 100%;
+}
+
+#dashboard-video-container {
+    background-color: var(--tertiary-color);
+    position: relative;
+    height: 75vh;
+    overflow: hidden;
+}
+
+#dashboard-video-play-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+#dashboard-video-play-btn button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#dashboard-video-title {
+    padding: 8px;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+#dashboard-video-title h1 {
+    margin: 0px;
+    font-family: var(--primary-font);
+}
+
+@media only screen and (max-width: 900px) {
+    #dashboard-video {
+        height: 100%;
+    }
+    
+    #dashboard-video-container {
+        height: auto;
+        overflow: auto;
+    }
+}
